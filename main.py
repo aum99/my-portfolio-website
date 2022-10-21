@@ -6,7 +6,7 @@ from wtforms.validators import DataRequired
 import smtplib
 import os
 
-my_email = os.environ.get("MY_EMAIL")
+my_email = os.environ.get("EMAIL")
 password = os.environ.get("PASSWORD")
 
 app = Flask(__name__)
@@ -18,7 +18,7 @@ class ContactForm(FlaskForm):
     name = StringField(validators=[DataRequired()])
     email = EmailField(validators=[DataRequired()])
     message = TextAreaField(validators=[DataRequired()])
-    submit= SubmitField("Send Message")
+    submit = SubmitField("Send Message")
 
 @app.route('/')
 def home():
@@ -57,4 +57,4 @@ def about():
     return render_template('about.html')
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', debug=True)
+    app.run(debug=True)
