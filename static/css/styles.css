@@ -158,8 +158,14 @@ a:hover {
 body {
 padding: 0 10px;
 }
-.me-emo {
+.in-touch{
+font-size:45px
+}
+.drop{
 display:none;
+}
+.shrink {
+font-size: 15px;
 }
 .about-img {
 padding-left:0px
