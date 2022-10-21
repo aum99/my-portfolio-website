@@ -1,0 +1,167 @@
+body {
+  background-color: #FEFAF6;
+  padding: 0 80px;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover {
+  color: #000000;
+}
+
+/* NAV SECTION */
+
+.nav-link {
+  color: #000000;
+}
+
+.right-nav{
+  padding-right: 320px;
+}
+
+.mid-nav .nav-item {
+  padding: 0 20px;
+}
+
+.left-nav {
+  padding-left: 280px;
+}
+
+/* CARD SECTIION */
+
+.main-section {
+  padding: 5px;
+  padding-top: 40px;
+}
+
+.card:hover{
+  box-shadow: 0 0 30px #FFD5B1;
+}
+.card {
+  background-color: #FCEEE2;
+  height: 300px;
+  border: 0px;
+  border-radius: 25px;
+  margin: 10px 0px;
+  padding: 0px 20px;
+}
+
+.emo {
+  font-size: 4rem;
+}
+
+.linked-in-logo {
+  height: 45%
+}
+
+.in-touch {
+  font-size: 4.5rem;
+}
+
+.me-emo {
+  height: 50px;
+  width: 50px;
+}
+
+/* ABOUT PAGE */
+
+.about-img {
+  height: 500px;
+  padding-left: 100px
+}
+
+.about-name {
+  font-size: 4rem;
+  margin-bottom: 0px
+}
+
+.about-info {
+  padding-left: 100px
+}
+
+.wave {
+  height: 20px;
+  padding-bottom: 5px;
+}
+.abt-row {
+  padding: 120px 0px
+}
+.abt-first {
+  padding-left: 2px
+}
+
+/* CONTACT PAGE */
+
+.contact-section {
+  padding-top: 50px
+}
+
+.contact-info-emo {
+  font-size: 5rem;
+}
+
+/* RESUME PAGE */
+
+.resume-card:hover {
+  box-shadow: none
+}
+
+.resume-card {
+  background-color: #FFEEDF;
+  color: #000000;
+  height: 1500px;
+  padding:50px
+}
+
+
+
+/* FOOTER SECITON */
+
+.footer {
+  padding-top: 30px;
+}
+
+.footer .nav {
+  padding: 10px 0px;
+}
+
+.footer-socials {
+  font-size: 2rem;
+  padding: 0px 10px;
+}
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 765px) {
+   .in-touch {
+        font-size: 3rem;
+    }
+    .linked-in-logo {
+    padding-left:50px
+    }
+
+}
+
+@media (max-width: 992px){
+.left-nav {
+    padding-left:0px;
+    }
+    .resume-card {
+    height: 1700px}
+}
+
+
+@media (max-width: 720px) {
+body {
+padding: 0 10px;
+}
+.me-emo {
+display:none;
+}
+.about-img {
+padding-left:0px
+}
+}

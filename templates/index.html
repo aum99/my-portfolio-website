@@ -1,0 +1,100 @@
+{% include "header.html" %}
+
+<section class="main-section">
+    <div class="row">
+      <div class="col-lg-6 col-md-12">
+        <a href="{{ url_for('about') }}">
+          <div class="card">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-4">
+                  <br>
+                  <div class="card-img-top me-emo"><img src="static/images/me-emo.png" alt=""></div>
+                </div>
+                <div class="col-8">
+                  <br><br>
+                  <h3>Hey I'm Aum</h3>
+                  <br>
+                  <h5>I love designing and making minimalistic websites</h5>
+                  <br>
+                  <h5>Wanna work together, Lets connect!</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <a href="{{ url_for('resume') }}">
+          <div class="card">
+            <div class="card-body">
+
+              <div class="card-title emo"><i class="fa-solid fa-address-card"></i></div>
+              <div class="card-subtitle">
+                <h5>Learn more about me</h5>
+                <h1>See my resume</h1>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <a href="https://www.linkedin.com/in/aum-battul-4b42801bb/">
+          <div class="card">
+            <div class="card-body">
+              <br>
+              <img class="linked-in-logo" src="static/images/linked-in.png" alt="">
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-6 col-md-12">
+        <a href="{{ url_for('connect') }}">
+          <div class="card">
+            <div class="card-body">
+              <br><br><br><br><br><br>
+              <h4>Lets work together✨</h4>
+              <h1 class="in-touch">Get in touch now</h1>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-6 col-md-12">
+        <a href="{{ url_for('connect') }}">
+          <div class="card">
+            <div class="card-body">
+              <br><br><br>
+              <h3>What I do</h3>
+              <div class="row">
+                <div class="col-4 emo">
+                  <i class="fa-regular fa-globe"></i>
+                </div>
+                <div class="col-4 emo">
+                  <i class="fa-solid fa-pen-nib"></i>
+                </div>
+                <div class="col-4 emo">
+                  <i class="fa-solid fa-store"></i>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-4">
+                  <h2>WEB</h2>
+                </div>
+                <div class="col-4">
+                  <h2>VISUAL</h2>
+                </div>
+                <div class="col-4">
+                  <h2>BRANDING</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+{% include "footer.html" %}
