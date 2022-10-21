@@ -170,7 +170,7 @@ display:none;
 font-size: 15px;
 }
 .about-img {
-padding-left:40px;
+padding-left:30px;
 height:300px;
 }
 .linked-in-logo {
@@ -185,5 +185,11 @@ padding-right:100px
 }
 .card-2 {
 height:1800px
+}
+.about-info {
+padding-left: 20px;
+}
+.abt-row {
+padding:30px 0px
 }
 }
